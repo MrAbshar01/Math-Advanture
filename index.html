@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Math Adventure | Money Matters</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="brand" id="brandToggle" role="button" aria-label="Toggle navigation menu" tabindex="0">
+                <span class="brand-mark"><i class="fa-solid fa-star"></i></span>
+                <span>Math Adventure<br>
+                    <span style="font-size:.75rem;color:#6e6174;font-weight:700">
+                        Money Matters · Year 3
+                    </span>
+                </span>
+            </div>
+
+            <nav aria-label="Main navigation" id="mainNav">
+                <button class="active" data-page="home"><i class="fa-solid fa-house"></i> Home</button>
+                <button data-page="learn"><i class="fa-solid fa-book-open"></i> Learn It</button>
+                <button data-page="explore"><i class="fa-solid fa-magnifying-glass"></i> Explore It</button>
+                <button data-page="shop"><i class="fa-solid fa-bag-shopping"></i> Shop &amp; Solve</button>
+                <button data-page="quiz"><i class="fa-solid fa-trophy"></i> Quiz Quest</button>
+                <button data-page="encouragement"><i class="fa-solid fa-heart"></i> Words of Encouragement</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ================= HOME PAGE ================= -->
+        <section class="page active" id="home">
+
+            <div class="hero">
+                <span class="eyebrow">
+                    Year 3 Mathematics · Numbers &amp; Operations
+                </span>
+
+                <h1>
+                    Money Matters:<br>
+                    Let's Add! <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </h1>
+
+                <p class="lead">
+                    Hello, little mathematicians! <i class="fa-solid fa-heart"></i> Welcome to a pastel-coloured
+                    world where we learn to add money, explore changing values,
+                    shop for school supplies and become confident Money Masters.
+                </p>
+
+                <div class="button-row">
+                    <button class="btn" data-go="learn">
+                        <i class="fa-solid fa-play"></i> Start Learning
+                    </button>
+
+                    <button class="btn secondary" data-go="explore">
+                        <i class="fa-solid fa-flask"></i> Enter the Money Lab
+                    </button>
+                </div>
+            </div>
+
+            <div class="section-heading">
+                <div>
+                    <h2><i class="fa-solid fa-route"></i> Your Learning Journey</h2>
+                    <p>
+                        Four connected activities take you from understanding
+                        to exploring, applying and checking your learning.
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid">
+
+                <article class="card resource-card">
+                    <div class="icon pink-bg"><i class="fa-solid fa-book-open"></i></div>
+                    <div>
+                        <span class="tag">01 · Understand</span>
+                        <h3>Learn It!</h3>
+                        <p>
+                            Discover how to add money values using clear explanations,
+                            place value and step-by-step learning materials.
+                        </p>
+                        <button class="btn" data-go="learn"><i class="fa-solid fa-book"></i> Open Lesson</button>
+                    </div>
+                </article>
+
+                <article class="card resource-card">
+                    <div class="icon mint-bg"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div>
+                        <span class="tag">02 · Explore</span>
+                        <h3>Explore It!</h3>
+                        <p>
+                            Enter the Money Lab, explore different amounts and
+                            discover how changing values affects the total.
+                        </p>
+                        <button class="btn mint" data-go="explore"><i class="fa-solid fa-flask"></i> Open Money Lab</button>
+                    </div>
+                </article>
+
+                <article class="card resource-card">
+                    <div class="icon yellow-bg"><i class="fa-solid fa-bag-shopping"></i></div>
+                    <div>
+                        <span class="tag">03 · Apply</span>
+                        <h3>Shop &amp; Solve!</h3>
+                        <p>
+                            Complete your assigned mini-market shopping mission
+                            and use addition to solve real-life money problems.
+                        </p>
+                        <button class="btn yellow" data-go="shop"><i class="fa-solid fa-cart-shopping"></i> Visit Mini-Market</button>
+                    </div>
+                </article>
+
+                <article class="card resource-card">
+                    <div class="icon lav-bg"><i class="fa-solid fa-trophy"></i></div>
+                    <div>
+                        <span class="tag">04 · Check</span>
+                        <h3>Quiz Quest!</h3>
+                        <p>
+                            Answer your questions, check your score, learn from
+                            your mistakes and continue with Wayground practice.
+                        </p>
+                        <button class="btn secondary" data-go="quiz"><i class="fa-solid fa-star"></i> Start Quiz Quest</button>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="section-heading">
+                <div>
+                    <h2><i class="fa-solid fa-bullseye"></i> Our Learning Goals</h2>
+                    <p>By the end of this adventure, you should be able to:</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <ul class="list">
+                    <li><i class="fa-solid fa-coins"></i> Add two money values with totals up to RM10,000.</li>
+                    <li><i class="fa-solid fa-hashtag"></i> Explain how changing one amount affects the sum.</li>
+                    <li><i class="fa-solid fa-bag-shopping"></i> Solve real-life shopping problems involving money.</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Check calculations and learn from feedback.</li>
+                </ul>
+            </div>
+
+            <div class="notice">
+                <strong><i class="fa-solid fa-star"></i> Ready to become a Money Master?</strong>
+                <p>
+                    Every great mathematician starts with one step.
+                    Click <strong>Start Learning</strong> and begin your
+                    money adventure today!
+                </p>
+            </div>
+
+        </section>
+
+        <!-- ================= LEARN IT PAGE ================= -->
+        <section class="page" id="learn">
+
+            <div class="hero">
+                <span class="eyebrow">Station 01 · Understand</span>
+                <h1><i class="fa-solid fa-book-open"></i> Learn It!</h1>
+                <p class="lead">
+                    Let's learn to add money carefully. Keep the place values aligned,
+                    calculate one column at a time, and check your answer.
+                </p>
+            </div>
+
+            <div class="section-heading">
+                <div>
+                    <h2>How to Add Money <i class="fa-solid fa-coins"></i></h2>
+                    <p>Use these four steps whenever you solve an addition question.</p>
+                </div>
+            </div>
+
+            <div class="steps">
+                <div class="step">
+                    <b>1. Write <i class="fa-solid fa-pencil"></i></b>
+                    Arrange the amounts in columns.
+                </div>
+                <div class="step">
+                    <b>2. Align <i class="fa-solid fa-ruler-horizontal"></i></b>
+                    Keep the same place values together.
+                </div>
+                <div class="step">
+                    <b>3. Add <i class="fa-solid fa-plus"></i></b>
+                    Add from the smallest place value and regroup when needed.
+                </div>
+                <div class="step">
+                    <b>4. Check <i class="fa-solid fa-circle-check"></i></b>
+                    Estimate or use the inverse operation to check.
+                </div>
+            </div>
+
+            <div class="example">
+                <div class="tag"><i class="fa-solid fa-star"></i> Worked Example</div>
+                <div class="mathline">RM1,250 + RM2,375 = RM3,625</div>
+                <p>
+                    Thousands: 1,000 + 2,000 = 3,000<br>
+                    Hundreds: 200 + 300 = 500<br>
+                    Tens: 50 + 70 = 120<br>
+                    Ones: 0 + 5 = 5
+                </p>
+                <p><strong>Total: RM3,625</strong></p>
+            </div>
+
+            <div class="section-heading">
+                <div>
+                    <h2>Let's Understand Better! <i class="fa-solid fa-lightbulb"></i></h2>
+                    <p>Read each question and reveal the answer when you are ready.</p>
+                </div>
+            </div>
+
+            <div class="grid">
+
+                <div class="card">
+                    <h3><i class="fa-solid fa-pencil"></i> Example 1: Let's Try!</h3>
+                    <p>Calculate RM2,430 + RM1,560.</p>
+                    <details>
+                        <summary><strong>Show answer</strong></summary>
+                        <p>RM2,430 + RM1,560 = <strong>RM3,990</strong></p>
+                    </details>
+                </div>
+
+                <div class="card">
+                    <h3><i class="fa-solid fa-star"></i> Example 2: Challenge</h3>
+                    <p>Calculate RM4,125 + RM875. Think about how regrouping helps you.</p>
+                    <details>
+                        <summary><strong>Show answer</strong></summary>
+                        <p>RM4,125 + RM875 = <strong>RM5,000</strong></p>
+                    </details>
+                </div>
+
+            </div>
+
+            <div class="notice">
+                <strong><i class="fa-solid fa-chalkboard-user"></i> Teacher note:</strong>
+                These examples support learning about money addition and place value.
+                Adapt explanations to pupils' prior knowledge and the relevant
+                curriculum requirements.
+            </div>
+
+            <!-- OFFICIAL GOOGLE SLIDES PUBLISHED EMBED -->
+            <div class="learn-slides-container">
+
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow"><i class="fa-solid fa-star"></i> Your Learning Corner</span>
+                        <h2>Money Matters Learning Slides</h2>
+                        <p>
+                            Explore the slides to learn about money, place value,
+                            needs and wants, and regrouping.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="learn-slides-frame">
+                    <iframe
+                        src="https://docs.google.com/presentation/d/e/2PACX-1vRmRy9zsdWv8lp_cDHG3ubAgZKWbZkLlPDnFszLi4yw2iwRZ9pJfeh90gZbQpcR4LKCvmuvIQ2THU39/pubembed?start=true&amp;loop=true&amp;delayms=3000"
+                        title="Published Money Matters Learning Slides for Year 3 Mathematics" loading="eager"
+                        referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen" allowfullscreen>
+                    </iframe>
+                </div>
+
+                <p class="learn-slides-caption">
+                    <i class="fa-solid fa-circle-info"></i> Read each slide carefully. Use the presentation controls
+                    to move between slides.
+                </p>
+
+                <div class="button-row learn-slides-actions">
+                    <a class="btn secondary"
+                        href="https://docs.google.com/presentation/d/1bDn7kJJfVZO6Lc3-D1jgBWLs86KCxsthIFsyspmdUK8/edit?usp=sharing"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Google Slides in a new tab
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="button-row">
+                <button class="btn mint" data-go="explore">
+                    Next: Explore It! <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+
+        </section>
+
+        <!-- ================= EXPLORE IT PAGE ================= -->
+        <section class="page" id="explore">
+
+            <div class="hero">
+                <span class="eyebrow">Station 02 · Investigate</span>
+                <h1><i class="fa-solid fa-magnifying-glass"></i> Explore It!</h1>
+                <p class="lead">
+                    Welcome to the Money Lab! Move the sliders to change two
+                    money values. The total updates as you explore.
+                </p>
+            </div>
+
+            <div class="section-heading">
+                <div>
+                    <h2>Interactive Money Lab</h2>
+                    <p>Try changing one amount while keeping the other amount the same.</p>
+                </div>
+            </div>
+
+            <div class="lab-controls">
+
+                <div class="control">
+                    <label for="amountA">
+                        <span><i class="fa-solid fa-circle" style="color:var(--pink-dark)"></i> First amount</span>
+                        <span id="labelA">RM1,250</span>
+                    </label>
+                    <input id="amountA" type="range" min="0" max="5000" step="50" value="1250">
+                    <div class="small">Move the slider from RM0 to RM5,000.</div>
+                </div>
+
+                <div class="control">
+                    <label for="amountB">
+                        <span><i class="fa-solid fa-circle" style="color:var(--lav-dark)"></i> Second amount</span>
+                        <span id="labelB">RM2,375</span>
+                    </label>
+                    <input id="amountB" type="range" min="0" max="5000" step="25" value="2375">
+                    <div class="small">Move the slider from RM0 to RM5,000.</div>
+                </div>
+
+            </div>
+
+            <div class="total-box">
+                <div class="tag">Your total</div>
+                <div class="total-number" id="total">RM3,625</div>
+                <p id="equation">RM1,250 + RM2,375 = RM3,625</p>
+                <p id="limitNote" class="small">
+                    Great exploring! The total is within RM10,000.
+                </p>
+            </div>
+
+            <div class="grid" style="margin-top:16px">
+
+                <div class="card">
+                    <h3><i class="fa-solid fa-brain"></i> Think about it</h3>
+                    <ol class="list">
+                        <li>Increase the first amount by RM500. What happens to the total?</li>
+                        <li>Keep the first amount fixed and reduce the second amount by RM500. What changes?</li>
+                        <li>Can you make a total of exactly RM5,000?</li>
+                    </ol>
+                </div>
+
+                <div class="card">
+                    <h3><i class="fa-solid fa-clipboard"></i> Record your findings</h3>
+                    <p>
+                        Try three different calculations. Write each pair of amounts
+                        and its total in your notebook.
+                    </p>
+                    <button class="btn secondary" id="resetLab" type="button">
+                        <i class="fa-solid fa-rotate-left"></i> Reset example
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="section-heading">
+                <div>
+                    <h2><i class="fa-solid fa-gem"></i> Money Explorer: Treasure Hunt!</h2>
+                    <p>Complete three challenges to unlock your Money Master badge.</p>
+                </div>
+            </div>
+
+            <div class="card" style="background:linear-gradient(135deg,#ffe0ed,#eee5ff,#d8f8e9)">
+
+                <div style="text-align:center;font-size:2.6rem">
+                    <i class="fa-solid fa-crown" style="color:#b8860b"></i>
+                    <i class="fa-solid fa-gem" style="color:#6541a5"></i>
+                    <i class="fa-solid fa-gift" style="color:#176b53"></i>
+                </div>
+
+                <h2 style="text-align:center">The RM10,000 Treasure Hunt</h2>
+
+                <p style="text-align:center">
+                    The Money Princess needs your help! Solve each addition
+                    challenge to unlock her treasure.
+                </p>
+
+                <div class="example">
+                    <span class="tag"><i class="fa-solid fa-star"></i> Challenge 1 · The Shopping Bag</span>
+                    <h3>How much did the princess spend?</h3>
+                    <p><i class="fa-solid fa-hand-holding-heart" style="color:var(--pink-dark)"></i> Handbag: RM1,250<br><i class="fa-solid fa-shoe-prints" style="color:var(--lav-dark)"></i> Shoes: RM2,375</p>
+                    <p><strong>What is the total cost?</strong></p>
+
+                    <button class="btn secondary" type="button" onclick="checkMoneyMission(1,'3625')">RM3,625</button>
+                    <button class="btn secondary" type="button" onclick="checkMoneyMission(1,'3525')">RM3,525</button>
+                    <button class="btn secondary" type="button" onclick="checkMoneyMission(1,'3725')">RM3,725</button>
+
+                    <p id="missionFeedback1" class="feedback" aria-live="polite"></p>
+                </div>
+
+                <div class="example">
+                    <span class="tag"><i class="fa-solid fa-unlock"></i> Challenge 2 · Unlock the Treasure</span>
+                    <h3>Which amount completes RM10,000?</h3>
+                    <p>RM6,250 + RM_____ = RM10,000</p>
+
+                    <button class="btn mint" type="button" onclick="checkMoneyMission(2,'3750')">RM3,750</button>
+                    <button class="btn mint" type="button" onclick="checkMoneyMission(2,'3250')">RM3,250</button>
+                    <button class="btn mint" type="button" onclick="checkMoneyMission(2,'4250')">RM4,250</button>
+
+                    <p id="missionFeedback2" class="feedback" aria-live="polite"></p>
+                </div>
+
+                <div class="example">
+                    <span class="tag"><i class="fa-solid fa-brain"></i> Challenge 3 · The Final Key</span>
+                    <h3>The princess buys three gifts.</h3>
+                    <p>
+                        <i class="fa-solid fa-gift"></i> Gift A: RM2,450<br>
+                        <i class="fa-solid fa-gift"></i> Gift B: RM3,275<br>
+                        <i class="fa-solid fa-gift"></i> Gift C: RM1,500
+                    </p>
+                    <p><strong>What is the total cost?</strong></p>
+
+                    <button class="btn yellow" type="button" onclick="checkMoneyMission(3,'7125')">RM7,125</button>
+                    <button class="btn yellow" type="button" onclick="checkMoneyMission(3,'7225')">RM7,225</button>
+                    <button class="btn yellow" type="button" onclick="checkMoneyMission(3,'7325')">RM7,325</button>
+
+                    <p id="missionFeedback3" class="feedback" aria-live="polite"></p>
+                </div>
+
+                <div class="total-box">
+                    <div class="tag">YOUR TREASURE SCORE</div>
+                    <div class="total-number" id="missionScore">0/3</div>
+                    <p id="missionResult">
+                        Complete all three challenges to collect your badge!
+                    </p>
+                    <button class="btn" type="button" onclick="resetMoneyMission()">
+                        <i class="fa-solid fa-rotate"></i> Play Again
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- GENIALLY MONEY DETECTIVES -->
+            <div
+                style="position:relative;width:100%;height:0;padding-top:56.25%;overflow:hidden;border-radius:16px;margin-top:24px">
+                <iframe src="https://view.genially.com/6ade12c016fb94416fbd1c38"
+                    title="Money Detectives: The Lost Treasure" frameborder="0" width="1200" height="675"
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allowfullscreen="true"
+                    scrolling="yes">
+                </iframe>
+            </div>
+
+            <div class="notice" style="margin-top:16px;text-align:center">
+                <strong><i class="fa-solid fa-magnifying-glass"></i> Money Detectives: The Lost Treasure</strong>
+                <p>
+                    If the Genially activity does not appear above,
+                    open it directly in a new tab.
+                </p>
+                <a class="btn mint" href="https://view.genially.com/6ade12c016fb94416fbd1c38" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Money Detectives
+                </a>
+            </div>
+
+        </section>
+
+        <!-- ================= SHOP & SOLVE PAGE ================= -->
+        <section class="page" id="shop">
+
+            <div class="hero">
+                <span class="eyebrow">Station 03 · Apply</span>
+                <h1><i class="fa-solid fa-bag-shopping"></i> Shop &amp; Solve!</h1>
+                <p class="lead">
+                    Welcome to the Money Matters Mini Market! Follow each shopping
+                    mission, add the prices and calculate the correct change.
+                </p>
+            </div>
+
+            <div class="section-heading">
+                <div>
+                    <h2><i class="fa-solid fa-store"></i> Mini Market Adventure</h2>
+                    <p>Complete the assigned shopping tasks to become a Money Master!</p>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <div style="text-align:center;font-size:2.6rem">
+                    <i class="fa-solid fa-cart-shopping" style="color:var(--mint-dark)"></i>
+                    <i class="fa-solid fa-heart" style="color:var(--pink-dark)"></i>
+                    <i class="fa-solid fa-coins" style="color:#a86b00"></i>
+                </div>
+
+                <h2 style="text-align:center">Your Shopping Mission</h2>
+
+                <p>
+                    Open the interactive Canva presentation and follow the
+                    instructions on each slide. Read each shopping list carefully
+                    before calculating.
+                </p>
+
+                <div class="notice">
+                    <strong>Remember!</strong>
+                    Follow the products and quantities given in each mission.
+                    Do not choose your own products unless the mission tells you to.
+                </div>
+
+                <h3><i class="fa-solid fa-star"></i> How to Play</h3>
+
+                <ol class="list">
+                    <li>Open the Mini Market Adventure.</li>
+                    <li>Read the assigned shopping mission carefully.</li>
+                    <li>Identify the required products and their prices.</li>
+                    <li>Add the prices to find the total cost.</li>
+                    <li>Calculate the change from the amount paid.</li>
+                    <li>Select your answer and check the feedback on the activity slides.</li>
+                </ol>
+
+                <div class="button-row" style="justify-content:center">
+                    <a class="btn" href="https://canva.link/mini-market-money-adventure-app" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-solid fa-rocket"></i> Start Mini Market Adventure
+                    </a>
+                </div>
+
+                <p class="small" style="text-align:center;margin-top:18px">
+                    Canva activities open in a new tab. If pupils see an access message,
+                    update the Canva share settings so anyone with the link can view
+                    or use the activity.
+                </p>
+
+            </div>
+
+            <div class="grid">
+
+                <div class="card">
+                    <h3><i class="fa-solid fa-calculator"></i> Mathematics Skills</h3>
+                    <ul class="list">
+                        <li>Addition of money</li>
+                        <li>Calculating total costs</li>
+                        <li>Subtracting to calculate change</li>
+                        <li>Solving real-life shopping problems</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><i class="fa-solid fa-bullseye"></i> Learning Outcome</h3>
+                    <p>
+                        Pupils will apply addition of money in a shopping situation
+                        and calculate the change correctly using the given information.
+                    </p>
+                    <span class="tag">Year 3 Mathematics</span>
+                    <span class="tag">Malaysian Ringgit (RM)</span>
+                </div>
+
+            </div>
+
+            <div class="example">
+                <h3><i class="fa-solid fa-lightbulb"></i> Quick Practice</h3>
+                <p>A pupil buys two items costing RM3.20 and RM2.50.</p>
+                <p class="mathline">RM3.20 + RM2.50 = RM5.70</p>
+                <p>If the pupil pays RM10.00:</p>
+                <p class="mathline">RM10.00 − RM5.70 = RM4.30</p>
+                <p>So, the change is <strong>RM4.30</strong>.</p>
+            </div>
+
+            <div class="button-row">
+                <button class="btn secondary" data-go="explore">
+                    <i class="fa-solid fa-arrow-left"></i> Back to Explore It!
+                </button>
+                <button class="btn mint" data-go="quiz">
+                    Next: Quiz Quest! <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+
+        </section>
+
+        <!-- ================= QUIZ QUEST PAGE ================= -->
+        <section class="page" id="quiz">
+
+            <div class="hero">
+                <span class="eyebrow">Station 04 · Check Your Learning</span>
+                <h1><i class="fa-solid fa-trophy"></i> Quiz Quest!</h1>
+                <p class="lead">
+                    You have learned, explored and shopped. Now show what you know
+                    about adding money in the Wayground challenge!
+                </p>
+            </div>
+
+            <div class="card" style="margin-top:24px;text-align:center">
+
+                <div style="font-size:2.6rem">
+                    <i class="fa-solid fa-gamepad" style="color:var(--lav-dark)"></i>
+                    <i class="fa-solid fa-heart" style="color:var(--pink-dark)"></i>
+                    <i class="fa-solid fa-trophy" style="color:#a86b00"></i>
+                </div>
+
+                <h2>Money Addition Challenge</h2>
+
+                <p>
+                    Click the button below to open your Year 3 Money Addition quiz
+                    on Wayground. Follow the instructions, answer the questions
+                    and review your result.
+                </p>
+
+                <div class="notice">
+                    <strong>Before you start</strong>
+                    <ol class="list" style="text-align:left">
+                        <li>Make sure you have an internet connection.</li>
+                        <li>Click <strong>Open Wayground Quiz</strong>.</li>
+                        <li>Enter the activity and answer each question carefully.</li>
+                        <li>Submit your answers and check your score.</li>
+                    </ol>
+                </div>
+
+                <a class="btn"
+                    href="https://wayground.com/join/pre-game/running/U2FsdGVkX19cceuWRCtK74krskNpvcOmukrlk4rNYGsit2WYg0JDJcCQOTFtAmgmj4KNBzWceGdcsiv89rXoXw%253D%253D/start"
+                    target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-rocket"></i> Open Wayground Quiz
+                </a>
+
+                <p class="small" style="margin-top:16px">
+                    The quiz opens in a new tab. This direct link is provided
+                    as the reliable option if the platform does not allow embedding.
+                </p>
+
+            </div>
+
+            <div class="grid" style="margin-top:18px">
+
+                <div class="card">
+                    <h3><i class="fa-solid fa-bullseye"></i> What you are practising</h3>
+                    <ul class="list">
+                        <li>Adding two or more money values</li>
+                        <li>Using place value accurately</li>
+                        <li>Regrouping when necessary</li>
+                        <li>Solving everyday money problems</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><i class="fa-solid fa-star"></i> Your goal</h3>
+                    <p>
+                        Try your best, read the feedback and learn from any mistakes.
+                        Every attempt helps you become a more confident Money Master!
+                    </p>
+                    <span class="tag">Year 3 Mathematics</span>
+                    <span class="tag">Money Addition</span>
+                </div>
+
+            </div>
+
+            <div class="button-row">
+                <button class="btn secondary" data-go="shop">
+                    <i class="fa-solid fa-arrow-left"></i> Back to Shop &amp; Solve
+                </button>
+                <button class="btn mint" data-go="home">
+                    <i class="fa-solid fa-house"></i> Return Home
+                </button>
+            </div>
+
+        </section>
+
+        <!-- ================= ENCOURAGEMENT PAGE ================= -->
+        <section id="encouragement" class="page">
+
+            <div id="encouragement-box">
+                <div class="encouragement-card">
+                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                    <h2>Words of Encouragement</h2>
+                    <p class="subtitle">A little motivation for your Math Adventure!</p>
+
+                    <div id="encouragement-message">
+                        You are capable of amazing things. Keep learning!
+                    </div>
+
+                    <button onclick="newEncouragement()">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Get Encouragement
+                    </button>
+
+                    <p class="footer">Believe in yourself. Every step counts!</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <strong>Math Adventure: Money Matters</strong>
+        · Learn, explore, shop and shine! <i class="fa-solid fa-star"></i>
+        <br>
+        <span style="font-size:.85rem">
+            External activities open in a new tab when direct embedding
+            is restricted by the provider.
+        </span>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
